@@ -17,7 +17,7 @@ fun Navigation() {
         //Для каждой страницы задается route - для дальнейшего обращения к ней
         //и указывается метод для запуска с переданными параметрами
         composable("logInScreen"){
-            LogIn(navController)
+            LogIn(/*navController*/)
         }
         composable("EmailCodScreen"){
             EmailCod(/*navController*/)
